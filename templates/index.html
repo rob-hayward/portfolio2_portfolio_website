@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+{% import "bootstrap/wtf.html" as wtf %}
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Rob Hayward - Python Programmer </title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="static/img/portfolio_favicon.ico" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="static/css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#!">Rob Hayward - Python Development Portfolio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#me">me</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">let's work together</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Header - set the background image for the header in the line below-->
+        <header class="py-5 bg-image-full" style="background-image: url('https://cdn.dribbble.com/userupload/3112578/file/original-8066e63288b3e92727e967d8d1f65970.png?compress=1&amp;resize=3200x1920')">
+            <div class="text-center my-5">
+                <img class="img-fluid rounded-circle mb-4" src="static/img/profile_pic.png" alt="..." />
+                <h1 class="text-white fs-3 fw-bolder">Rob Hayward</h1>
+                <p class="text-white-50 mb-0">A Python Programmer in Development </p>
+            </div>
+            <script src="https://kit.fontawesome.com/65c7099cec.js" crossorigin="anonymous"></script>
+        </header>
+        <!-- Content section-->
+        <section class="py-5">
+            <div class="container my-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6" id="me">
+                        <h2>Who am I?</h2>
+                        <p class="lead">Hi, I'm Rob, a human being; alike in many ways, different in others. I like to be kind and enjoy life, work, people and the world. I am a Python programmer with a simple, yet challenging aim: to write elegant code that improves peoples lives in the real world. Please join me on my journey of continual development. </p>
+                        <p class="mb-0">This website is a live portfolio of my training and development, personal projects and professional work. If you like anything that you see then <a href="http://urlhere.com">let's work together</a>. I'm a great listener and communicator and have decades of experience working well alone and in small and large teams. I'm able to follow or lead where appropriate, whilst collaborating all the while. </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Image element - set the background image for the header in the line below-->
+        <div class="py-5 bg-image-full" id=portfolio style="background-image: url('https://cdn.dribbble.com/userupload/3818973/file/original-647907c3b7480966eccb7a63ea202f14.png?compress=1&amp;resize=752x')">
+            <!-- Put anything you want here! The spacer below with inline CSS is just for demo purposes!-->
+            <div style="height: 20rem"></div>
+        </div>
+        <!-- Content section-->
+        <section class="py-5" id="project1">
+            <div class="container my-5" >
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <h2>Portfolio Project 1 - The Morse Machine</h2>
+                        <p class="lead">A text based/command line project using Python and PyCharm to write a program that takes any String input and converts it into Morse Code.</p>
+                        <p class="mb-0">Although this is a relatively simple piece of functionality to program, it is a nice little project to demonstrate a variety of programming skills:<br>
+                            <ul>
+                              <li>Reading from CSV files using Pandas.</li>
+                              <li>Converting Pandas data frames into more usable dictionary formats.</li>
+                              <li>Working with lists and dictionaries to collect and output desired data.</li>
+                              <li>Using while loops to allow the user to continue or terminate program.</li>
+                              <li>Catching common exceptions to enhance user experience and prevent crashes.</li>
+                            </ul>
+                            Even on a small project such as this, it is important for me to not only write good functioning code but also to practice creating a good user experience and ensure that I use best coding practices to make my code easy to read and work with for myself or others in the future.<a href="https://github.com/rob-hayward/portfolio1_morse_code"><br>See the full code for the project here</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Image element - set the background image for the header in the line below-->
+        <div class="py-5 bg-image-full" id="project2-image" style="background-image: url('https://cdn.dribbble.com/userupload/4493601/file/original-8bc15645021d86531c106cc6db323d57.png?compress=1&amp;resize=2388x1668')">
+            <!-- Put anything you want here! The spacer below with inline CSS is just for demo purposes!-->
+            <div style="height: 20rem"></div>
+        </div>
+        <!-- Content section-->
+        <section class="py-5" id="project2">
+            <div class="container my-5" >
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <h2>Portfolio Project 2 - Personal Portfolio Website</h2>
+                        <p class="lead">A personal portfolio website to archive and display my work and development as a programmer. </p>
+                        <p class="mb-0">This the first website that I have ever built from scratch. It brings together many skills that I have learned including:<br>
+                            <ul>
+                              <li>Rendering templates with Flask.</li>
+                              <li>Using Bootstrap, HTML, CSS.</li>
+                              <li>Color and layout design.</li>
+                              <li>Using Stackoverflow, Google and Documentation to problem solve and achieve a desired result.</li>
+                            </ul>
+                            This has been a challenging project and excellent developmental experience for me. I am sure that I will come back to this site for many years to come to update my portfolio as well as to continue to develop the site and practice my design and integration of front end and back end skills.<a href="yourrefhere"><br>See the full code for the project here</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Image element - set the background image for the header in the line below-->
+        <div class="py-5 bg-image-full" id=contact style="background-image: url('https://cdn.dribbble.com/userupload/4147299/file/original-9aee744761efe15c30c6f92ac70a1bcb.jpg?compress=1&amp;resize=752x')">
+            <!-- Put anything you want here! The spacer below with inline CSS is just for demo purposes!-->
+            <div style="height: 20rem"></div>
+        </div>
+        <!-- Content section-->
+        <section class="py-5" id="contact-form">
+            <div class="container my-5" >
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        {% if name %}
+                            <h2>Hello {{name}}. Thanks for getting in touch.</h2>
+                        {% else %}
+                        <h2>Contact form</h2>
+                        <p class="lead">If you like anything that you see and think that we could help each other in any way then please do not hesitate to get in touch.</p>
+                        <br>
+                        <form method="POST">
+                            {{ form.hidden_tag() }}
+
+                            {{ form.name.label(class="form-label") }}
+                            {{ form.name(class="form-control") }}
+                            <br>
+                            {{ form.email.label(class="form-label") }}
+                            {{ form.email(class="form-control") }}
+                            <br>
+                            {{ form.message.label(class="form-label") }}
+                            {{ form.message(class="form-control") }}
+                            <br>
+                            {{ form.submit(class="btn btn-light") }}
+                        </form>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container">
+                <div class="media-icons d-flex justify-content-evenly">
+                <a href="http://facebook.com">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                    <a href="https://github.com/">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="http://instagram.com">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                    <a href="http://twitter.com">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+
+            </div>
+                <p class="m-0 text-center text-white">Copyright &copy; Rob Hayward 2023</p>
+
+            </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
+
+
